@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Using_Dapper_Core_API.Entities
+{
+    public class CompanyForCreation
+    {
+        public string Name { get; set; }
+
+        public string Address { get; set; }
+
+        public string Country { get; set; }
+    }
+}
